@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url(fonts/idroid.otf) format('opentype');
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(132, 225, 173);
+}
+
+main{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    padding: 10px;
+    margin: 10px 70px 70px 70px;
+    border-radius: 10px;
+}
+
+header{
+    background-color: #02381bc4;
+    width: 100%;
+    padding: 30px 30px 30px 30px;
+    margin: -10px -10px -10px -10px
+}
+
+header > nav{
+    margin: 0px 0px -30px -10px;
+}
+
+header > p{
+    margin: 30px 0px 30px 0px;
+}
+
+
+
+nav{
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav:hover > .menu{
+    background-color: #0b4e0f;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-family: 'droid';
+    color: #0b4e0f;
+}
+
+h3{
+    font-family: 'droid';
+    background-color: #DBF3E6;
+    color: #0b4e0f;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+iframe{
+    height: 400px;
+    width: 800px;
+    border-width: 50px;
+    border-style: solid;
+    border-color: #1A5C38;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+a{
+    color: #0b4e0f;
+    background-color: #56f160;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0b4e0f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: aliceblue;
+}
+
+a::after {
+    content: ' 🧷'
+}
+
+.menu{
+    display: inline-block;
+    color: white
+}
+
+.centro{
+    text-align: center;
+    color: white;
+}
+
+.destaque{
+    color: #0b4e0f;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #0b4e0f;
+    color: white;
+    font-size: 14px;
+    padding: 1px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+footer > p {
+    text-align: center;
+    margin: 0px;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+main#lista{
+    background-color: #30ab67a4;
+    color: black;
+    padding: 10px 75px 75px 75px;
+    margin: 0px 75px 75px 75px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+main#lista.ladod{
+    text-align: right;
+}
+
+main#lista.ladoe{
+    text-align: left;
+}
+
+h4{
+    background-color: #0b4e0f;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 75px 0px 75px;
+    border-radius: 5px 5px 0px 0px;
+}
