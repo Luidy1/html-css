@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim ipsa cum autem velit, corporis vitae placeat repellat assumenda facilis sint animi pariatur excepturi eos, numquam esse illum, nihil eaque.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum magnam consequuntur, culpa rem fugiat perferendis pariatur architecto aliquid! Iusto, accusamus recusandae minima amet voluptates fugiat porro voluptatibus unde corporis incidunt?</p>
+
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opções acima.</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita incidunt atque rerum nam quisquam beatae sapiente blanditiis, ratione saepe. Distinctio ducimus quisquam sed dolorem eligendi a dolor animi molestiae doloribus!</p><img src='imagens/cruzeiro.png'>">
+        <p>Infelizmente seu navegador não é compatátivel com isso.</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quo unde sed perferendis, temporibus aliquid placeat voluptas. Similique saepe repudiandae ut, accusantium eius, tempore, maxime molestias fugiat beatae modi pariatur!</p>
+</body>
+</html>
